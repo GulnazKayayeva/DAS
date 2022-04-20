@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    height: 200vh;
+}
+
+header{
+    height: 45px;
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.header-80{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dd{
+    fill: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.header-text{
+    font-size: 12px;
+    color: white;
+}
+
+.under_header{
+    height: 55px ;
+    width: 100%;
+    background-color: rgb(255, 255, 255,0.8);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgb(189, 188, 188);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.unh-item{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.species{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.price{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.deals_apple{
+    height: 130px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #fbfbfd;
+    padding: 20px;
+}
+
+.deal-link{
+    color: blue;
+    line-height: 1.5;
+}
+
+.deal-link:hover{
+    text-decoration: underline;
+} 
+
+.deal_item{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.deal-text{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+main{
+    display: flex;
+    height: 140vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first{
+    position: sticky;
+    top: 55px;
+}
+
+.fir{
+    height: 1200px;
+    width: 45%;
+    padding:  40px 10px    0px  30px;
+}
+
+.first-text{
+    color: #bf4800;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.47059;
+}
+
+.b-text{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.ll-text{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+.poc{
+    height: 80px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 6px;
+}
+
+.ff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    line-height: 1.5;
+}
+
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+    margin: 20px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.item{
+    border: 1px solid gray;
+    border-radius: 12px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.itemPlus{
+    border: 3px solid rgb(98, 78, 185);
+    box-shadow: 0px 0px 2px rgb(98, 79, 185);    
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.itemgreen .circle{
+    background-color: #424245 ;
+}
+
+.itemsilver .circle{
+    background-color: #ededee ;
+}
+.itemgold .circle{
+    background-color: #FAE8D2 ;
+}
+.itemgraphite .circle{
+    background-color: #5D5C58 ;
+}
+.itemblue .circle{
+    background-color:#b5c4df ;
+}
+
